@@ -3,13 +3,14 @@
     flex:1;
     height: 100%;
     width:100%;
-
+}
+nav {
+    align-items: center;
+    display: flex
 }
 nav a {
-    justify-content: space-between;
     text-decoration: none;
     flex:1;
-    margin: 10px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -19,15 +20,13 @@ nav a {
 }
 .mugtypes {
     display:flex;
-    flex:1 1 auto;
-    ;
+    flex:1;
 }
 .navbar, footer, .box1 {
     background-color: #1f2937;
 }
 img {
     max-width:50%;
-    max-height: ;
 }
 footer {
     position: static;
@@ -41,4 +40,7 @@ footer p {
 }
 body {
     margin:0
+}
+.header, .nav {
+    flex:1;
 }
