@@ -1,3 +1,15 @@
 .nav {
     display: flex;
+    justify-content: space-around;
+}
+.box1 {
+    display: flex;
+}
+.mugtypes {
+    display:flex;
+    flex:1;
+    ;
+}
+.nav, footer, .box1 {
+    background-color: #1f2937;
 }
