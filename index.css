@@ -1,6 +1,10 @@
-.nav {
+.navbar {
     display: flex;
+    flex:auto;
     justify-content: space-around;
+}
+.navbar h1 {
+    align-self: flex-start;
 }
 .box1 {
     display: flex;
@@ -10,7 +14,7 @@
     flex:1 1 auto;
     ;
 }
-.nav, footer, .box1 {
+.navbar, footer, .box1 {
     background-color: #1f2937;
 }
 img {
