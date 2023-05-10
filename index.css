@@ -17,3 +17,16 @@ img {
     max-width:50%;
     max-height: fit-content;
 }
+footer {
+    position: static;
+    display: flex;
+    margin-bottom: 0;
+    ;
+}
+footer p {
+    align-items: center;
+    
+}
+body {
+    margin:0
+}
