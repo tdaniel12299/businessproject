@@ -7,9 +7,13 @@
 }
 .mugtypes {
     display:flex;
-    flex:1;
+    flex:1 1 auto;
     ;
 }
 .nav, footer, .box1 {
     background-color: #1f2937;
+}
+img {
+    max-width:50%;
+    max-height: fit-content;
 }
