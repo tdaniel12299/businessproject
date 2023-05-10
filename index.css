@@ -6,13 +6,15 @@
 }
 nav {
     align-items: center;
-    display: flex
+    display: flex;
+    justify-content: center;
 }
 nav a {
     text-decoration: none;
     flex:1;
     font-size: 18px;
     color: #e5e7eb;
+    text-align: center;
 }
 .box1 {
     display: flex;
