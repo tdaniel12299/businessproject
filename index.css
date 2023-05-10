@@ -1,13 +1,21 @@
 .navbar {
     display: flex;
-    flex:auto;
-    justify-content: space-around;
+    flex:1;
+    height: 100%;
+    width:100%;
+
 }
-.navbar h1 {
-    align-self: flex-start;
+nav a {
+    justify-content: space-between;
+    text-decoration: none;
+    flex:1;
+    margin: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .box1 {
     display: flex;
+    align-items: center;
 }
 .mugtypes {
     display:flex;
@@ -19,7 +27,7 @@
 }
 img {
     max-width:50%;
-    max-height: fit-content;
+    max-height: ;
 }
 footer {
     position: static;
