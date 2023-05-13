@@ -21,11 +21,21 @@ nav a {
     font-weight: 700;
     font-size: 48px;
     color: #f9faf8;
-
 }
-.box1 {
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.box1 { 
     display: flex;
     align-items: center;
+}
+.picdiv {
+    display:flex;
+}
+.pic {
+    flex:auto;
+
 }
 .mugtypes {
     display:flex;
@@ -53,3 +63,4 @@ body {
 .header, .nav {
     flex:1;
 }
+/* plz plz plz add the img back intoi the orgbnaal dov container u stupid ho/*
