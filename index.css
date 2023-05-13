@@ -1,6 +1,4 @@
-* {
-    font-family: roboto;
-}
+
 .navbar {
     display: flex;
     flex:1;
@@ -29,8 +27,6 @@ nav a {
     display: flex;
     flex-direction: column;
     width: 500px;
-    color:#e5e7eb;
-    font-size: 18px;
 }
 .box1 { 
     display: flex;
@@ -73,4 +69,15 @@ body {
 .picdiv, .flex {
     height: auto;
     width: auto;
+}
+.flex h1 {
+    color:#e5e7eb;
+    font-size: 48px;
+    align-self: center;
+    font-weight: 800;
+}
+.flex p {
+    font-size: 18px;
+    color: #e5e7eb;
+    
 }
