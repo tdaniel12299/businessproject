@@ -1,3 +1,6 @@
+* {
+    font-family: roboto;
+}
 .navbar {
     display: flex;
     flex:1;
@@ -26,6 +29,8 @@ nav a {
     display: flex;
     flex-direction: column;
     width: 500px;
+    color:#e5e7eb;
+    font-size: 18px;
 }
 .box1 { 
     display: flex;
