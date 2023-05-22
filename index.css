@@ -167,12 +167,14 @@ h3 {
     background-color: #3882f6 ;
     width: 1000px;
     align-self: center;
+    border-radius: 10px;
+    
 }
 .signup {
     display: flex;
     align-content:center ;
     flex-wrap: wrap;
-    margin: 40px;
+    margin-left: 100px;
 }
 .div4 {
     display:flex;
@@ -180,9 +182,21 @@ h3 {
 }
 .action {
     color: #e3e4e6;
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 20px;
 }
 .action h5 {
     display: flex;
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.action p{
+    margin-top: 0;
+    
+}
+footer {
+    justify-content: center;
+    color:#555b63
 }
