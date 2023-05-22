@@ -44,9 +44,10 @@ nav a {
 }
 .pic {
     flex:auto;
-    border:#6e1919 solid 5px;
+    border:#e3e4e6 solid 2px;
     border-radius: 10%;
-    width: 300px;
+    width: auto;
+    height: auto;
 
 }
 .mugtypes {
@@ -57,7 +58,7 @@ nav a {
     background-color: #1f2937;
 }
 img {
-    max-width:40%;
+    max-width:60%;
 }
 footer {
     position: static;
