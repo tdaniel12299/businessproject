@@ -9,6 +9,7 @@ nav {
     align-items: center;
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
 nav a {
     text-decoration: none;
@@ -27,11 +28,14 @@ nav a {
     display: flex;
     flex-direction: column;
     width: 100px;
-    align-items: center;
+    align-items: last baseline;
 }
 .box1 { 
     display: flex;
     align-items: center;
+    margin:auto;
+    padding-left: 100px;
+    padding-bottom: 50px;
 }
 .picdiv {
     display:flex;
@@ -90,20 +94,22 @@ body {
     margin-left: 20px;
 
 }
-.flex button{
-    width: 200px;
-    border-color: purple;
-    border: 0;
-    border-radius: 0;
-    color: purple;
+button {
+    width: 130px;
+    height: 60px;
+    background-color: rgb(48, 121, 189);
+    border-radius:10px ;
+    color: rgb(243, 239, 243);
     position: relative;
     overflow: hidden;
     z-index: 1;
     transition: color 150ms ease-in-out;
+    font-size: 18px;
     
 }
 .flex button:hover { 
     background-color: #fff;
+    color:rgb(48, 121, 189);
 }
 &:after {
     width: 110%
