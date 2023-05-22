@@ -97,7 +97,7 @@ body {
 }
 button {
     width: 130px;
-    height: 60px;
+    height: 40px;
     background-color: rgb(48, 121, 189);
     border-radius:10px ;
     color: rgb(243, 239, 243);
@@ -108,9 +108,10 @@ button {
     font-size: 18px;
     
 }
-.flex button:hover { 
+button:hover { 
     background-color: #fff;
     color:rgb(48, 121, 189);
+    cursor: pointer;
 }
 &:after {
     width: 110%
@@ -162,6 +163,26 @@ h3 {
 .blue {
     display:flex;
     justify-content: center;
-    padding:40px;
+    margin:40px;
     background-color: #3882f6 ;
+    width: 1000px;
+    align-self: center;
+}
+.signup {
+    display: flex;
+    align-content:center ;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.div4 {
+    display:flex;
+    justify-content: center;
+}
+.action {
+    color: #e3e4e6;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.action h5 {
+    display: flex;
 }
