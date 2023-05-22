@@ -103,7 +103,7 @@ body {
     
 }
 .flex button:hover { 
-    color: #fff;
+    background-color: #fff;
 }
 &:after {
     width: 110%
